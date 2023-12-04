@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible"content="IE=edge"/>
-        <meta name="viewport"content="width=device-width,initial-scale=1.0"/>
-        <title>Document</title>
-        <link rel="stylesheet"href="style.css"/>
-        <style type="text/css">
-            p{
-                font-size: 24px;
-                color:purple;
-            }
-        </style>
-    </head>
-    <body>
-      <center><h1 style="color:blue"><i>My Portfolio</i><h1></center>
-        <div class="wrapper">
-            <div class="container">
-                <div class="box" id="image">
-                    <img src="" alt="" height="98%"/>
-                </div>
-                <div class="box"id="header">
-</div>
-<div class="box" id="obj">
-  <h2 style="color:orange">Objective</h2>
-  <p>
-   I am a third-year information technology student seeking a responsible position in a 
-   reputable IT-based industry in order to gain practical experience and serve my
-   organization.
-  </p>
-  <h2 style="color:green">About Me</h2>
-  <p>Myself Kanksha vuthuri,a creative and experienced web developer with  intension of 
-  spreading my knowledge to people and passion towards creating user-friendly,interesting 
-  websites and webpages using html,css and javascript.I've worked on a variety of projects
-  related to web which is booming in present generation.
-  </p>
-    </div> 
-      <div class="box" id="profile">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY2sPp8BbtHyCYy-AdDsa-qfg6yhYux3iwNg&usqp=CAU" alt=""height="32%"/>
-       </div> 
-        <div class="box" id="project">
-          <h2 style="color:navy">Projects</h2>
-           <h4>NUMBER GUESSING GAME</h4>
-                    <p>I made a simple funny game using java.</p>
-          <h4>ATM INTERFACE</h4>
-           <p>
-            In this project,I used java language.It was a part of my internship at oasis
-            infobyte from september2023 to october 2023.
-           </p>
-            </div> 
-      <div class="box" id="sample">
-         <img src=""/>
-          <img src=""/>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App Project JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
+        <button class="search-btn">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn">Use Current Location</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>___ ( __ )</h2>
+            <h6>Temperature: __°C</h6>
+            <h6>Wind: __ M/S</h6>
+            <h6>Humidity: __%</h6>
           </div>
-          <div class="box" id="wor">
-          <h2>Work-Experience</h2>
-          <h3>Oasis Infobyte</h3>
-          <p>Java Development Intern</p>
-            <p>September 2023 to October 2023</p>
-            </div>
         </div>
-    </body>
+        <div class="days-forecast">
+          <h2>5-Day Forecast</h2>
+          <ul class="weather-cards">
+            <li class="card">
+              <h3>( __ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( __ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( __ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( __ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+            <li class="card">
+              <h3>( __ )</h3>
+              <h6>Temp: __C</h6>
+              <h6>Wind: __ M/S</h6>
+              <h6>Humidity: __%</h6>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </body>
 </html>
